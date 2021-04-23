@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/docs/css/style.css">
+    <script  src="/docs/js/utils/include.js"></script>
+
+
+    <meta  name="viewport" content="width=device-width , initial-scale=1 ,shrink-to-fit=no">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <script  src="/js/libs/jquery-3.4.1.min.js"></script>
+        <script  src="/js/libs/popper.min.js"></script>
+        <script  src="/js/libs/bootstrap.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="page-header"></div>
+
+    
+        <div class="container">
+
+            <h2>Cambiar Contraseña </h2>
+            <form>
+                <div  class="row text-center">
+                    <div  class="col-md">
+                        <div class="row">
+                            <div lass="col-md">
+                                <div class="form-group">
+                                    <label for="new-password">Nueva Contraseña: </label>
+                                    <input type="password" class="form-control" id="new-password" name="password" placeholder="Nueva Contraseña">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div  lass="col-md">
+                                <div class="form-group">
+                                    <label for="repeat-new-password">Repetir Contraseña: </label>
+                                    <input type="password" class="form-control" id="repeat-new-password" name="password" placeholder="Repetir Contraseña">Entre 8 y 12 palabras
+                                </div>
+                            </div>
+                        </div>
+                        <div  class="row">
+                            <div  class="col-md  text-center">
+                                <button  type="submit" class="btn  btn-primary">Cambiar contraseña </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script>
+            include("header_con_inicio_sesion.html", "#page-header");
+        </script>
+</body>
+</html>

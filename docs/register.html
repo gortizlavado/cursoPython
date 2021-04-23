@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/docs/css/style.css">
+    <script  src="/docs/js/utils/include.js"></script>
+
+
+    <meta  name="viewport" content="width=device-width , initial-scale=1 ,shrink-to-fit=no">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <script  src="/js/libs/jquery-3.4.1.min.js"></script>
+        <script  src="/js/libs/popper.min.js"></script>
+        <script  src="/js/libs/bootstrap.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="page-header"></div>
+
+    
+        <div class="container">
+
+            <h2>Crear cuenta: </h2>
+            <form>
+                <div class="row">
+                    <div class="col-md ">
+                        <div class="form-group">
+                            <label for="firstname-input">Nombre: </label>
+                            <input type="text" class="form-control" id="firstname-input"name="fistName" placeholder="Nombre">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md ">
+                        <div class="form-group">
+                            <label for="firstname-input">Apellidos: </label>
+                            <input type="text" class="form-control" id="firstname-input"name="fistName" placeholder="Apellidos">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md ">
+                        <div class="form-group">
+                            <label  for="telephone-input">Telephone: </label>
+                            <select  name="prefix" id="prefix-input">
+                                <option  value="34">Spain  (+34) </option>
+                                <option  value="1">USA  (+1) </option>
+                                <option  value="other">Other </option>
+                            </select>
+                            <input  type="text" id="telephone-input" name="telephone" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md ">
+                        <div class="form-group">
+                            <label for="firstname-input">Email: </label>
+                            <input type="text" class="form-control" id="firstname-input"name="fistName" placeholder="Email">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md ">
+                        <div class="form-group">
+                            <label for="firstname-input">Nombre de usuario: </label>
+                            <input type="text" class="form-control" id="firstname-input"name="fistName" placeholder="Usuario">
+                        </div>
+                    </div>
+                </div>
+                <div  lass="col-md ">
+                    <div class="form-group">
+                        <label for="lastname-input">Contraseña: </label>
+                        <input type="password" class="form-control" id="Pass" name="password" placeholder="Contraseña">Entre 8 y 12 palabras
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md ">
+                        <div class="form-group">
+                            <label for="firstname-input">URL de imagen de perfil: </label>
+                            <input type="text" class="form-control" id="firstname-input"name="fistName" placeholder="URL">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md ">
+                        <div class="form-group">
+                            <label for="firstname-input">Aceptar condiciones de uso </label>
+                            <input type="checkbox"/>
+                        </div>
+                    </div>
+                </div>
+                <div  class="row">
+                    <div  class="col-md  text-center">
+                        <button  type="submit" class="btn  btn-primary">Crear </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script>
+            include("header.html", "#page-header");
+        </script>
+</body>
+</html>
