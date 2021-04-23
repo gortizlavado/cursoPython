@@ -5,77 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/docs/css/style.css">
-    <script  src="/docs/js/utils/include.js"></script>
+    <script src="/docs/js/utils/include.js"></script>
 
 
-    <meta  name="viewport" content="width=device-width , initial-scale=1 ,shrink-to-fit=no">
-        <link rel="stylesheet" href="/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/css/font-awesome.min.css">
-        <script  src="/js/libs/jquery-3.4.1.min.js"></script>
-        <script  src="/js/libs/popper.min.js"></script>
-        <script  src="/js/libs/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width , initial-scale=1 ,shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <script src="/js/libs/jquery-3.4.1.min.js"></script>
+    <script src="/js/libs/popper.min.js"></script>
+    <script src="/js/libs/bootstrap.min.js"></script>
 
     <title>Document</title>
 </head>
 <body>
-    <div id="page-header"></div>
+<div id="page-header"></div>
 
-    
-        <div class="container">
 
-            <h2>Editar perfil: </h2>
-            <form>
-                <div  class="row text-center">
-                    <div  class="col-md-3" id="photo-details-column">
-                        <div  class="card"><img src="https://thumbs.dreamstime.com/b/ventana-abierta-del-comedor-acogedor-la-calle-del-viejo-estilo-de-la-ciudad-india-97689586.jpg" class="card-img-top"></div>
+<div class="container">
+
+    <h2>Editar perfil: </h2>
+    <form>
+        <div class="row text-center">
+            <div class="col-md-3" id="photo-details-column">
+                <div class="card"><img
+                        src="https://thumbs.dreamstime.com/b/ventana-abierta-del-comedor-acogedor-la-calle-del-viejo-estilo-de-la-ciudad-india-97689586.jpg"
+                        class="card-img-top"></div>
+            </div>
+            <div class="col-md-9">
+                <p>
+                <form>
+                    <div class="row">
+                        <div class="col-md ">
+                            <div class="form-group">
+                                <label for="user"><strong>Nombre: </strong></label>
+                                <input type="text" class="form-control" id="user" name="user" placeholder="Carlos">
+                            </div>
+                        </div>
                     </div>
-                    <div  class="col-md-9">
-                        <p>
-                            <form>
-                                <div class="row">
-                                    <div class="col-md ">
-                                        <div class="form-group">
-                                            <label for="firstname-input"><strong>Nombre: </strong></label>
-                                            <input type="text" class="form-control" id="user"name="user" placeholder="Carlos">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md ">
-                                        <div class="form-group">
-                                            <label for="URL"><strong>Apellidos: </strong></label>
-                                            <input type="text" class="form-control" id="URL"name="URL" placeholder="García Sanchez">
-                                        </div>
-                                    </div>
-                                </div>                                
-                                <div class="row">
-                                    <div class="col-md ">
-                                        <div class="form-group">
-                                            <label for="Fecha"><strong>Email: </strong></label>
-                                            <input type="text" class="form-control" id="Fecha"name="Fecha" placeholder="carlos@gmail.com">
-                                        </div>
-                                    </div>
-                                </div> 
-                                <div class="row">
-                                    <div class="col-md ">
-                                        <div class="form-group">
-                                            <label for="Descripcion"><strong>Nombre de usuario: </strong></label>
-                                            <input type="text" class="form-control" id="Descripcion"name="Descripcion" placeholder="User1">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div  class="row">
-                                    <div  class="col-md  text-center">
-                                        <button  type="submit" class="btn  btn-primary" >Aceptar cambios</button>
-                                    </div>
-                                </div>                
-                            </form>
-                        </p>
+                    <div class="row">
+                        <div class="col-md ">
+                            <div class="form-group">
+                                <label for="URL"><strong>Apellidos: </strong></label>
+                                <input type="text" class="form-control" id="URL" name="URL"
+                                       placeholder="García Sanchez">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md ">
+                            <div class="form-group">
+                                <label for="Fecha"><strong>Email: </strong></label>
+                                <input type="text" class="form-control" id="Fecha" name="Fecha"
+                                       placeholder="carlos@gmail.com">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md ">
+                            <div class="form-group">
+                                <label for="Descripcion"><strong>Nombre de usuario: </strong></label>
+                                <input type="text" class="form-control" id="Descripcion" name="Descripcion"
+                                       placeholder="User1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md  text-center">
+                            <button type="submit" class="btn  btn-primary">Aceptar cambios</button>
+                        </div>
                     </div>
                 </form>
+                </p>
+            </div>
         </div>
-        <script>
-            include("header_con_inicio_sesion.html", "#page-header");
-        </script>
+    </form>
+</div>
+<script>
+    include("header_con_inicio_sesion.html", "#page-header");
+</script>
 </body>
 </html>
