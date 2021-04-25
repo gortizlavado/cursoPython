@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/docs/images/favicon.ico">
+    <link rel="stylesheet" href="/docs/css/style.css">
+    <script src="/docs/js/utils/include.js"></script>
+
+    <meta name="viewport" content="width=device-width , initial-scale=1 ,shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <script src="/js/libs/jquery-3.4.1.min.js"></script>
+    <script src="/js/libs/popper.min.js"></script>
+    <script src="/js/libs/bootstrap.min.js"></script>
+
+    <script src="js/photo_detail.js" type="module"></script>
+
+
+    <title>Document</title>
+</head>
+<body>
+<div id="page-header"></div>
+
+<div class="container">
+    <div class="row  text-center">
+        <div class="col-md-3" id="photo-details-column">
+        </div>
+        <div class="col-md-9">
+            <p>
+            <form>
+                <div class="form-group">
+                    <label for="rating-input">Rate this photo: </label>
+                    <select id="rating-input" name="rating" class="form-control">
+                        <option value="1">*</option>
+                        <option value="2">**</option>
+                        <option value="3">***</option>
+                        <option value="4">****</option>
+                        <option value="5">*****</option>
+                    </select>
+                    <button type="submit" class="btn  btn-success">Rate</button>
+                </div>
+                <div class="row">
+                    <div class="col-md ">
+                        <div class="form-group">
+                            <label for="user"><strong>Titulo: </strong></label>
+                            <input type="text" class="form-control" id="user" name="user" placeholder="Titulo">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md ">
+                        <div class="form-group">
+                            <label for="URL1"><strong>URL: </strong></label>
+                            <input type="text" class="form-control" id="URL1" name="URL1" placeholder="URL1">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md ">
+                        <div class="form-group">
+                            <label for="Fecha"><strong>Fecha: </strong></label>
+                            <input type="text" class="form-control" id="Fecha" name="Fecha" placeholder="Fecha">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md ">
+                        <div class="form-group">
+                            <label for="Descripcion"><strong>Descripcion: </strong></label>
+                            <input type="text" class="form-control" id="Descripcion" name="Descripcion"
+                                   placeholder="Descripcion">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md ">
+                        <div class="form-group">
+                            <strong>Categorías: </strong>
+                            <select name="Categorías">
+                                <option selected>Paisajes</option>
+                                <option selected>Nocturna</option>
+                                <option selected>Hogar</option>
+                                <option selected>Retrato</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md ">
+                        <div class="form-group">
+                            <label for="URL2"><strong>Comentarios: </strong></label>
+                            <input type="text" class="form-control" id="URL2" name="URL2" placeholder="URL2">
+                        </div>
+                    </div>
+                </div>
+            </form>
+            </p>
+        </div>
+    </div>
+</div>
+<script>
+    include("header_con_inicio_sesion.html", "#page-header");
+</script>
+
+</body>
+</html>
